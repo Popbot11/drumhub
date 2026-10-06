@@ -56,14 +56,27 @@
                 "box": {
                     "id": "obj-17",
                     "maxclass": "number",
-                    "minimum": 1,
+                    "minimum": 0,
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
-                    "parameter_enable": 0,
+                    "parameter_enable": 1,
                     "patching_rect": [ 151.94174548983574, 374.2718395292759, 50.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.243902444839481, 18.17825081832427, 50.0, 22.0 ]
+                    "presentation_rect": [ 1.243902444839481, 18.17825081832427, 50.0, 22.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "0", "1" ],
+                            "parameter_initial": [ 8 ],
+                            "parameter_initial_enable": 1,
+                            "parameter_invisible": 1,
+                            "parameter_longname": "number",
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "number",
+                            "parameter_type": 3
+                        }
+                    },
+                    "varname": "number"
                 }
             },
             {

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 731.0, 150.0, 858.0, 823.0 ],
+        "rect": [ 731.0, 150.0, 1224.0, 763.0 ],
         "boxes": [
             {
                 "box": {
@@ -442,6 +442,7 @@
             "obj-35::obj-2": [ "live.dial[20]", "decay", 0 ],
             "obj-35::obj-20": [ "live.numbox[6]", "live.numbox", 0 ],
             "obj-35::obj-25": [ "live.numbox[7]", "live.numbox", 0 ],
+            "obj-45::obj-17": [ "number[1]", "number", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
