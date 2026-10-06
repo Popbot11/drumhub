@@ -1,0 +1,10 @@
+# Ignore autosaves
+*.[Mm]ax[Cc]rash
+*.maxautosave
+
+# Ignore other stuff
+/init/
+/db/
+*.db
+.DS_Store
+[Dd]esktop.ini
