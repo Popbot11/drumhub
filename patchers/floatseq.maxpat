@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 279.0, 122.0, 1193.0, 805.0 ],
+        "rect": [ 820.0, 441.0, 1193.0, 805.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -178,7 +178,7 @@
                     "autosize": 1,
                     "bgcolor": [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 0.49 ],
                     "color": [ 0.023529411764706, 1.0, 0.0, 0.42 ],
-                    "columns": 5,
+                    "columns": 13,
                     "elementcolor": [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 0.0 ],
                     "id": "obj-143",
                     "ignoreclick": 1,
@@ -188,9 +188,9 @@
                     "one/row": 1,
                     "outlettype": [ "list", "list" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 233.33333319425583, 624.8780636787415, 82.0, 18.0 ],
+                    "patching_rect": [ 233.33333319425583, 624.8780636787415, 210.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 45.73991185426712, 46.636772871017456, 82.0, 18.0 ],
+                    "presentation_rect": [ 45.73991185426712, 46.636772871017456, 210.0, 18.0 ],
                     "rows": 1
                 }
             },
@@ -662,7 +662,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 625.1461716294289, 269.7499935925007, 50.0, 22.0 ],
-                    "text": "0 0 0."
+                    "text": "12 0 0."
                 }
             },
             {
@@ -693,7 +693,7 @@
             {
                 "box": {
                     "autosize": 1,
-                    "columns": 5,
+                    "columns": 13,
                     "dialmode": 2,
                     "id": "obj-17",
                     "maxclass": "matrixctrl",
@@ -701,9 +701,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "list", "list" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 604.6783362627029, 222.2222125530243, 82.0, 18.0 ],
+                    "patching_rect": [ 604.6783362627029, 222.2222125530243, 210.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 45.73991185426712, 26.90583050251007, 82.0, 18.0 ],
+                    "presentation_rect": [ 45.73991185426712, 26.90583050251007, 210.0, 18.0 ],
                     "rows": 1
                 }
             },
@@ -736,7 +736,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "signal" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 21.79649293422699, 225.46808350086212, 30.0, 30.0 ]
                 }
             }

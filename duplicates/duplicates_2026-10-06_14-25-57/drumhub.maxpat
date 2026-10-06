@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 731.0, 151.0, 858.0, 823.0 ],
+        "rect": [ 731.0, 150.0, 858.0, 823.0 ],
         "boxes": [
             {
                 "box": {
@@ -24,12 +24,12 @@
             {
                 "box": {
                     "id": "obj-37",
-                    "linecount": 47,
+                    "linecount": 45,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 139.0, 429.0, 489.0, 669.0 ],
-                    "text": "LIST OF THINGS TO ADD\n\nchange existing:\n\nmake all parameters save between loads and copies of modules\n\nfix ui (green) in sequencer; onlyl one per row\n\nfix it so that resizing sequencer maintains steps \n\nfix initalize behaviour on sequencer\n\nadd labels for all inlets \n\nadd signal scopes for parameters when connected to modulattion\n\nmake everything a snippet, save bpatchers in host (???)\n\nfigure out why some knobs dont work on hudson's snare\n\n\n\n\nadd new sequencer/mod:\n\ndelay impulse\n\ntrigger impulse sequence\n\nnormal exp decay (without trigs)\n\ntrig -> gate converter (basically sample and hold)\n\n\n\nadd new generator / fx:\n\nimplement hudson's kick\n\nadd pb fmcore noise thing\n\nadd stripped down version of pb resonator\n\nextremely simple mono sampler (groove~) with pitch, start time, loop end (optional)\n\n\n\n"
+                    "patching_rect": [ 139.0, 429.0, 489.0, 641.0 ],
+                    "text": "LIST OF THINGS TO ADD\n\nchange existing:\n\nmake all parameters save between loads and copies of modules\n\nfix it so that resizing sequencer maintains steps \n\nfix initalize behaviour on sequencer\n\nadd labels for all inlets \n\nadd signal scopes for parameters when connected to modulattion\n\nmake everything a snippet, save bpatchers in host (???)\n\nfigure out why some knobs dont work on hudson's snare\n\n\n\n\nadd new sequencer/mod:\n\ndelay impulse\n\ntrigger impulse sequence\n\nnormal exp decay (without trigs)\n\ntrig -> gate converter (basically sample and hold)\n\n\n\nadd new generator / fx:\n\nimplement hudson's kick\n\nadd pb fmcore noise thing\n\nadd stripped down version of pb resonator\n\nextremely simple mono sampler (groove~) with pitch, start time, loop end (optional)\n\n\n\n"
                 }
             },
             {
@@ -220,9 +220,9 @@
                     "maxclass": "bpatcher",
                     "name": "clock divider.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 1,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal" ],
+                    "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 267.0, 348.0, 122.96295893192291, 54.814813017845154 ],
                     "viewvisibility": 1
                 }
