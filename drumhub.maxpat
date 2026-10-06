@@ -9,8 +9,18 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 169.0, 116.0, 1179.0, 823.0 ],
+        "rect": [ 731.0, 151.0, 858.0, 823.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 292.0, 185.0, 100.0, 22.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-37",
