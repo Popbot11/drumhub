@@ -9,14 +9,14 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 157.0, 270.0, 1418.0, 882.0 ],
+        "rect": [ 771.0, 256.0, 1418.0, 882.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
                 "box": {
                     "comment": "",
                     "id": "obj-32",
-                    "index": 6,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -28,7 +28,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-31",
-                    "index": 5,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -40,7 +40,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-30",
-                    "index": 4,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -52,7 +52,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-29",
-                    "index": 3,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -64,7 +64,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-28",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -338,7 +338,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-5",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -349,7 +349,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-4",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1307,6 +1307,23 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ]
+        ],
+        "parameters": {
+            "obj-15": [ "live.dial[21]", "f", 0 ],
+            "obj-195": [ "live.dial[19]", "pdecay", 0 ],
+            "obj-2": [ "live.dial[20]", "decay", 0 ],
+            "obj-20": [ "live.numbox[6]", "live.numbox", 0 ],
+            "obj-25": [ "live.numbox[7]", "live.numbox", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0
     }
 }

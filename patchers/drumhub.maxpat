@@ -9,8 +9,28 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 864.0, 422.0, 556.0, 823.0 ],
+        "rect": [ 882.0, 203.0, 1088.0, 823.0 ],
         "boxes": [
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-1",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "range.maxpat",
+                    "numinlets": 6,
+                    "numoutlets": 1,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 791.0, 659.0, 263.6406180754572, 79.44813260327675 ],
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "id": "obj-6",
@@ -423,6 +443,11 @@
             "obj-10::obj-90": [ "live.dial[14]", "sinedist", 0 ],
             "obj-10::obj-97": [ "live.dial[4]", "gainclip", 0 ],
             "obj-114::obj-2": [ "live.numbox[3]", "live.numbox", 0 ],
+            "obj-1::obj-13": [ "number[1]", "number", 0 ],
+            "obj-1::obj-16": [ "number[2]", "number", 0 ],
+            "obj-1::obj-19": [ "number[3]", "number", 0 ],
+            "obj-1::obj-22": [ "number[5]", "number", 0 ],
+            "obj-1::obj-25": [ "number[4]", "number", 0 ],
             "obj-24": [ "live.dial", "ms", 0 ],
             "obj-26::obj-10": [ "live.numbox[16]", "live.numbox", 0 ],
             "obj-26::obj-16": [ "live.numbox[19]", "live.numbox", 0 ],
@@ -433,6 +458,7 @@
             "obj-35::obj-2": [ "live.dial[20]", "decay", 0 ],
             "obj-35::obj-20": [ "live.numbox[6]", "live.numbox", 0 ],
             "obj-35::obj-25": [ "live.numbox[7]", "live.numbox", 0 ],
+            "obj-45::obj-17": [ "number", "number", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,

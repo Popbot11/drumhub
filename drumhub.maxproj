@@ -2,8 +2,8 @@
     "name": "drumhub",
     "version": 1,
     "creationdate": 3874155843,
-    "modificationdate": 3874156247,
-    "viewrect": [ 525.0, 418.0, 300.0, 500.0 ],
+    "modificationdate": 3874326338,
+    "viewrect": [ 528.0, 402.0, 300.0, 500.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
     "showdependencies": 1,
@@ -14,6 +14,10 @@
                 "kind": "patcher",
                 "local": 1,
                 "toplevel": 1
+            },
+            "range.maxpat": {
+                "kind": "patcher",
+                "local": 1
             }
         }
     },
