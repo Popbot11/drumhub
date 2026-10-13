@@ -2,8 +2,8 @@
     "name": "drumhub",
     "version": 1,
     "creationdate": 3874155843,
-    "modificationdate": 3874326338,
-    "viewrect": [ 528.0, 402.0, 300.0, 500.0 ],
+    "modificationdate": 3874760674,
+    "viewrect": [ 288.0, 486.0, 300.0, 500.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
     "showdependencies": 1,
@@ -18,8 +18,13 @@
             "range.maxpat": {
                 "kind": "patcher",
                 "local": 1
+            },
+            "2opfm.maxpat": {
+                "kind": "patcher",
+                "local": 1
             }
-        }
+        },
+        "externals": {        }
     },
     "layout": {    },
     "searchpath": {    },
@@ -29,6 +34,6 @@
     "devpathtype": 0,
     "devpath": ".",
     "sortmode": 0,
-    "viewmode": 0,
+    "viewmode": 1,
     "includepackages": 0
 }
