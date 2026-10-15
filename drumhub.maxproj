@@ -2,7 +2,7 @@
     "name": "drumhub",
     "version": 1,
     "creationdate": 3874155843,
-    "modificationdate": 3874760674,
+    "modificationdate": 3874882189,
     "viewrect": [ 288.0, 486.0, 300.0, 500.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
@@ -15,15 +15,21 @@
                 "local": 1,
                 "toplevel": 1
             },
+            "2opfm.maxpat": {
+                "kind": "patcher",
+                "local": 1
+            },
             "range.maxpat": {
                 "kind": "patcher",
                 "local": 1
             },
-            "2opfm.maxpat": {
+            "invexpenv_ui.maxpat": {
                 "kind": "patcher",
                 "local": 1
             }
         },
+        "media": {        },
+        "code": {        },
         "externals": {        }
     },
     "layout": {    },

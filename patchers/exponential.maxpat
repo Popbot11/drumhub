@@ -9,9 +9,41 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 219.0, 470.0, 1447.0, 618.0 ],
+        "rect": [ 181.0, 464.0, 1447.0, 618.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-34",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 221.0, 82.0, 158.0, 22.0 ],
+                    "restore": {
+                        "amp env": [ 1.0 ],
+                        "decay": [ 1.0000000000000004 ],
+                        "density": [ 1.0000000000000004 ],
+                        "exponent": [ 5.0 ]
+                    },
+                    "restore_extra": {
+                        "amp env": {
+                            "id": "obj-18"
+                        },
+                        "decay": {
+                            "id": "obj-8"
+                        },
+                        "density": {
+                            "id": "obj-10"
+                        },
+                        "exponent": {
+                            "id": "obj-16"
+                        }
+                    },
+                    "text": "autopattr presetPattrstorage",
+                    "varname": "presetPattrstorage"
+                }
+            },
             {
                 "box": {
                     "comment": "",
@@ -97,7 +129,8 @@
                         "valueof": {
                             "parameter_initial": [ 1 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.numbox[20]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "amp env",
                             "parameter_mmax": 1.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "live.numbox",
@@ -105,7 +138,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
-                    "varname": "live.numbox[4]"
+                    "varname": "amp env"
                 }
             },
             {
@@ -154,7 +187,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
-                    "varname": "live.numbox[3]"
+                    "varname": "exponent"
                 }
             },
             {
@@ -203,7 +236,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
-                    "varname": "live.numbox[1]"
+                    "varname": "density"
                 }
             },
             {
@@ -248,7 +281,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "signal" ],
                     "patching_rect": [ 259.9999914765358, 156.8464749455452, 30.0, 30.0 ]
                 }
             },
@@ -373,7 +406,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
-                    "varname": "live.numbox[2]"
+                    "varname": "decay"
                 }
             },
             {
@@ -967,7 +1000,8 @@
                         ]
                     },
                     "patching_rect": [ 259.99999380111694, 291.8518422842026, 285.41665986180305, 22.0 ],
-                    "text": "gen~"
+                    "text": "gen~",
+                    "varname": "gen~_AA"
                 }
             }
         ],

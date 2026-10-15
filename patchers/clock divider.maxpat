@@ -9,9 +9,29 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 483.0, 298.0, 663.0, 780.0 ],
+        "rect": [ 229.0, 317.0, 663.0, 780.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-11",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 226.0204081632653, 240.78947138786316, 158.0, 22.0 ],
+                    "restore": {
+                        "div": [ 1 ]
+                    },
+                    "restore_extra": {
+                        "div": {
+                            "id": "obj-17"
+                        }
+                    },
+                    "text": "autopattr presetPattrstorage",
+                    "varname": "presetPattrstorage"
+                }
+            },
             {
                 "box": {
                     "fontface": 0,
@@ -76,7 +96,7 @@
                             "parameter_type": 3
                         }
                     },
-                    "varname": "number"
+                    "varname": "div"
                 }
             },
             {
@@ -280,7 +300,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "signal" ],
                     "patching_rect": [ 135.0, 205.0, 30.0, 30.0 ]
                 }
             }

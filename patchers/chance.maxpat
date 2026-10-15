@@ -9,9 +9,29 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 441.0, 294.0, 997.0, 780.0 ],
+        "rect": [ 414.0, 274.0, 997.0, 780.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 416.3717149198055, 398.0, 158.0, 22.0 ],
+                    "restore": {
+                        "chance": [ 1.0 ]
+                    },
+                    "restore_extra": {
+                        "chance": {
+                            "id": "obj-2"
+                        }
+                    },
+                    "text": "autopattr presetPattrstorage",
+                    "varname": "presetPattrstorage"
+                }
+            },
             {
                 "box": {
                     "comment": "",
@@ -72,7 +92,8 @@
                         "valueof": {
                             "parameter_initial": [ 1 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.numbox[3]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "chance",
                             "parameter_mmax": 1.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "live.numbox",
@@ -80,7 +101,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
-                    "varname": "live.numbox[4]"
+                    "varname": "chance"
                 }
             },
             {
@@ -231,7 +252,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "signal" ],
                     "patching_rect": [ 369.4690562784672, 443.69030126929283, 30.0, 30.0 ]
                 }
             }

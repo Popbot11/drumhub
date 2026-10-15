@@ -14,6 +14,42 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-34",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 244.0677966101695, 141.52542372881356, 158.0, 22.0 ],
+                    "restore": {
+                        "am index": [ 1.0 ],
+                        "am rate": [ 0.0 ],
+                        "carrief f": [ 1.0000000000000002 ],
+                        "fm index": [ 3.0 ],
+                        "fm ratio": [ 1.0 ]
+                    },
+                    "restore_extra": {
+                        "am index": {
+                            "id": "obj-116"
+                        },
+                        "am rate": {
+                            "id": "obj-27"
+                        },
+                        "carrief f": {
+                            "id": "obj-35"
+                        },
+                        "fm index": {
+                            "id": "obj-22"
+                        },
+                        "fm ratio": {
+                            "id": "obj-7"
+                        }
+                    },
+                    "text": "autopattr presetPattrstorage",
+                    "varname": "presetPattrstorage"
+                }
+            },
+            {
+                "box": {
                     "activebgcolor": [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.0 ],
                     "activelinecolor": [ 1.0, 0.709803921568627, 0.196078431372549, 0.59 ],
                     "id": "obj-9",
@@ -33,7 +69,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-37",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -69,7 +105,8 @@
                             "parameter_exponent": 4.0,
                             "parameter_initial": [ 1.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.dial[1]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "live.dial[22]",
                             "parameter_mmax": 10000.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.dial[7]",
@@ -77,7 +114,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "harmonicity-[1]"
+                    "varname": "carrief f"
                 }
             },
             {
@@ -106,7 +143,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-32",
-                    "index": 0,
+                    "index": 5,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -118,7 +155,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-30",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -130,11 +167,11 @@
                 "box": {
                     "comment": "",
                     "id": "obj-29",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "signal" ],
                     "patching_rect": [ 491.64655172413796, 277.2413793103448, 30.0, 30.0 ]
                 }
             },
@@ -142,11 +179,11 @@
                 "box": {
                     "comment": "",
                     "id": "obj-28",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "signal" ],
                     "patching_rect": [ 404.75, 277.2413793103448, 30.0, 30.0 ]
                 }
             },
@@ -335,7 +372,8 @@
                         "valueof": {
                             "parameter_initial": [ 1.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.dial[11]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "live.dial[25]",
                             "parameter_mmax": 1.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.dial[12]",
@@ -343,7 +381,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
-                    "varname": "depth-"
+                    "varname": "am index"
                 }
             },
             {
@@ -367,7 +405,6 @@
                         "rect": [ 125.0, 255.0, 931.0, 797.0 ],
                         "default_fontname": "Ableton Sans Medium",
                         "style": "default",
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -899,7 +936,8 @@
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.dial[19]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "live.dial[24]",
                             "parameter_mmax": 100.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "vibrato",
@@ -907,7 +945,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "rate-"
+                    "varname": "am rate"
                 }
             },
             {
@@ -938,7 +976,8 @@
                         "valueof": {
                             "parameter_initial": [ 3 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.dial[20]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "live.dial[23]",
                             "parameter_mmax": 100.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.dial[18]",
@@ -946,7 +985,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
-                    "varname": "ratio-"
+                    "varname": "fm index"
                 }
             },
             {
@@ -977,7 +1016,8 @@
                         "valueof": {
                             "parameter_initial": [ 1.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.dial[21]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "live.dial[26]",
                             "parameter_mmax": 10.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.dial[7]",
@@ -985,7 +1025,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "harmonicity-"
+                    "varname": "fm ratio"
                 }
             },
             {
@@ -1024,11 +1064,11 @@
                 "box": {
                     "comment": "",
                     "id": "obj-1",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "signal" ],
                     "patching_rect": [ 317.8534482758621, 277.2413793103448, 30.0, 30.0 ]
                 }
             }
@@ -1145,23 +1185,6 @@
                     "source": [ "obj-71", 0 ]
                 }
             }
-        ],
-        "parameters": {
-            "obj-116": [ "live.dial[11]", "live.dial[12]", 0 ],
-            "obj-22": [ "live.dial[20]", "live.dial[18]", 0 ],
-            "obj-27": [ "live.dial[19]", "vibrato", 0 ],
-            "obj-35": [ "live.dial[1]", "live.dial[7]", 0 ],
-            "obj-7": [ "live.dial[21]", "live.dial[7]", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0
+        ]
     }
 }

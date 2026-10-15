@@ -14,6 +14,87 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-34",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 313.75665923953056, 117.0, 237.0, 22.0 ],
+                    "restore": {
+                        "live.dial": [ 0.0 ],
+                        "live.dial[10]": [ 0.0 ],
+                        "live.dial[11]": [ 0.0 ],
+                        "live.dial[12]": [ 0.0 ],
+                        "live.dial[13]": [ 0.0 ],
+                        "live.dial[14]": [ 0.0 ],
+                        "live.dial[1]": [ 0.0 ],
+                        "live.dial[2]": [ 0.0 ],
+                        "live.dial[3]": [ 0.0 ],
+                        "live.dial[4]": [ 0.0 ],
+                        "live.dial[5]": [ 0.0 ],
+                        "live.dial[7]": [ 0.0 ],
+                        "live.dial[9]": [ 0.0 ]
+                    },
+                    "restore_extra": {
+                        "live.dial": {
+                            "id": "obj-10"
+                        },
+                        "live.dial[10]": {
+                            "id": "obj-73"
+                        },
+                        "live.dial[11]": {
+                            "id": "obj-52"
+                        },
+                        "live.dial[12]": {
+                            "id": "obj-70"
+                        },
+                        "live.dial[13]": {
+                            "id": "obj-90"
+                        },
+                        "live.dial[14]": {
+                            "id": "obj-12"
+                        },
+                        "live.dial[1]": {
+                            "id": "obj-17"
+                        },
+                        "live.dial[2]": {
+                            "id": "obj-11"
+                        },
+                        "live.dial[3]": {
+                            "id": "obj-28"
+                        },
+                        "live.dial[4]": {
+                            "id": "obj-97"
+                        },
+                        "live.dial[5]": {
+                            "id": "obj-100"
+                        },
+                        "live.dial[7]": {
+                            "id": "obj-26"
+                        },
+                        "live.dial[9]": {
+                            "id": "obj-42"
+                        }
+                    },
+                    "text": "autopattr presetPattrstorage @autoname 1",
+                    "varname": "presetPattrstorage"
+                }
+            },
+            {
+                "box": {
+                    "fontsize": 9.5,
+                    "id": "obj-2",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 32.23684210526316, 160.52631578947367, 121.0, 17.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 171.58662608265877, 133.06119671463966, 91.0, 17.0 ],
+                    "text": "dsp by Hudson Lee"
+                }
+            },
+            {
+                "box": {
                     "activebgcolor": [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.0 ],
                     "activelinecolor": [ 0.196078431372549, 1.0, 0.380392156862745, 1.0 ],
                     "id": "obj-146",

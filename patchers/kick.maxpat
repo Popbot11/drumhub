@@ -9,14 +9,14 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 771.0, 256.0, 1418.0, 882.0 ],
+        "rect": [ 515.0, 231.0, 885.0, 882.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
                 "box": {
                     "comment": "",
                     "id": "obj-32",
-                    "index": 0,
+                    "index": 6,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -28,7 +28,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-31",
-                    "index": 0,
+                    "index": 5,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -40,7 +40,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-30",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -52,7 +52,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-29",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -64,7 +64,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-28",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -123,7 +123,8 @@
                             "expression": ""
                         },
                         "valueof": {
-                            "parameter_longname": "live.numbox[7]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "wave",
                             "parameter_mmax": 1.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "live.numbox",
@@ -132,7 +133,7 @@
                         }
                     },
                     "textcolor": [ 0.992156862745098, 1.0, 0.0, 1.0 ],
-                    "varname": "live.numbox[1]"
+                    "varname": "wave"
                 }
             },
             {
@@ -187,7 +188,8 @@
                         },
                         "valueof": {
                             "parameter_exponent": 5.0,
-                            "parameter_longname": "live.numbox[6]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "p env amt",
                             "parameter_mmax": 8000.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "live.numbox",
@@ -196,7 +198,7 @@
                         }
                     },
                     "textcolor": [ 1.0, 0.0, 0.0, 1.0 ],
-                    "varname": "live.numbox"
+                    "varname": "p env amt"
                 }
             },
             {
@@ -236,7 +238,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 1.8,
-                            "parameter_longname": "live.dial[21]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "f",
                             "parameter_mmax": 200.0,
                             "parameter_mmin": 5.0,
                             "parameter_modmode": 3,
@@ -245,7 +248,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "live.dial[2]"
+                    "varname": "f"
                 }
             },
             {
@@ -338,7 +341,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-5",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -349,11 +352,11 @@
                 "box": {
                     "comment": "",
                     "id": "obj-4",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "signal" ],
                     "patching_rect": [ 266.3677219748497, 283.85651180148125, 30.0, 30.0 ]
                 }
             },
@@ -369,7 +372,8 @@
                     "patching_rect": [ 69.95515930652618, 318.92104971408844, 149.78168213367462, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 104.15336614847183, 149.99999856948853, 22.0 ],
-                    "text_width": 55.0
+                    "text_width": 55.0,
+                    "varname": "curve type"
                 }
             },
             {
@@ -384,7 +388,8 @@
                     "patching_rect": [ 69.7368414402008, 343.7631548643112, 150.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 128.11503013968468, 149.99999856948853, 22.0 ],
-                    "text_width": 55.21052575111389
+                    "text_width": 55.21052575111389,
+                    "varname": "drive"
                 }
             },
             {
@@ -399,7 +404,8 @@
                     "patching_rect": [ 69.7368414402008, 368.1052598953247, 150.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 152.71567183732986, 149.99999856948853, 22.0 ],
-                    "text_width": 53.89473628997803
+                    "text_width": 53.89473628997803,
+                    "varname": "clipper mix"
                 }
             },
             {
@@ -428,7 +434,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 4.0,
-                            "parameter_longname": "live.dial[20]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "decay[1]",
                             "parameter_mmax": 10.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "decay",
@@ -436,7 +443,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
-                    "varname": "live.dial[1]"
+                    "varname": "decay"
                 }
             },
             {
@@ -453,7 +460,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 4.0,
-                            "parameter_longname": "live.dial[19]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "pdecay",
                             "parameter_mmax": 15.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "pdecay",
@@ -461,7 +469,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
-                    "varname": "live.dial[8]"
+                    "varname": "pdecay"
                 }
             },
             {
@@ -1307,23 +1315,6 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ],
-        "parameters": {
-            "obj-15": [ "live.dial[21]", "f", 0 ],
-            "obj-195": [ "live.dial[19]", "pdecay", 0 ],
-            "obj-2": [ "live.dial[20]", "decay", 0 ],
-            "obj-20": [ "live.numbox[6]", "live.numbox", 0 ],
-            "obj-25": [ "live.numbox[7]", "live.numbox", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0
+        ]
     }
 }
